@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es2020",
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "noImplicitAny": true,
+    "allowJs": true,
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["mocks"],
+  "exclude": ["node_modules", "tests"]
+}
